@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+    <Button
+        android:text="@string/generate_qr_code"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/dp_10"
+        android:id="@+id/but_generate_qr_code"
+        android:tag="0"
+        android:onClick="gotoQrCodeOperation"
+        android:padding="@dimen/dp_10"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+
+        />
+
+    <Button
+        android:text="@string/read_qr_code"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/dp_10"
+        android:id="@+id/but_read_qr_code"
+        android:tag="1"
+        android:onClick="gotoQrCodeOperation"
+        android:padding="@dimen/dp_10"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+
+        />
+</LinearLayout>

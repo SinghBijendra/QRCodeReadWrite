@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QRCodeReadWrite</string>
+    <string name="generate_qr_code">Generate  QR  Code</string>
+    <string name="read_qr_code">Read QR Code</string>
+    <string name="write_text_here">Write text here</string>
+    <string name="from_gallery">From Gallery</string>
+    <string name="from_camera">From Camera</string>
+    <string name="qr_code_read">QR Code Read</string>
+</resources>
